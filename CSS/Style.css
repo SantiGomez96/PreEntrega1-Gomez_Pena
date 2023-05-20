@@ -1,0 +1,109 @@
+/*GENERAL*/
+li{list-style-type:none;}
+*{margin: 0;padding: 0;}
+.textFormulario{color:white;}
+li{color:white;padding:10px;}
+a{color:white;font-size: 25px;text-decoration:none;transition:1s all;}
+nav ul li{display:inline-block;padding:30px;}
+.mb20{margin-bottom:20px;}
+.mt20{margin-top:20px;}
+.p20{padding:20px;}
+.p40{padding:40px}
+.p70{padding:70px;}
+.p200{padding:200px;}
+a:hover{
+    font-size:35px;
+    background-color:papayawhip;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+}
+
+.m{margin:5px;}
+
+.center{display: flex;flex-direction: column;justify-content: center;align-items: center;}
+
+
+
+
+
+.pt60{padding-top: 60px;}
+.pb60{padding-bottom:60px;}
+
+.p30l{position:30px left ;}
+form{display:flex;flex-direction:column;}
+main div h2{font-size:30px;}
+.ubicarTxt{display:flex;flex-direction:column;
+justify-content:center;align-items:center;}
+
+/*PROPIEDDES GENERALES DEL BODY*/
+body{background-color:papayawhip;font-family: 'Montserrat', sans-serif;}
+h1{color:black;font-size: 40px;font-style: italic;}
+h2{color:black;font-size: 70px;font-weight:bolder;}
+h3{color:black;font-size: 20px;font-style: italic;}
+p{color:black;text-decoration:none;line-height:30px;text-align:justify;font-size:17px;}
+
+.sizeLogo{width: 150px;height: 150px;border-radius:80px;}
+.sizeCarrito{width: 150px;height: 150px;}
+
+/*PROPIEDADES DEL FOOTER*/
+.sizeRedesSocialesLogos{height: 50px;width: 50px;}
+
+/*FLEX*/
+header, ul, footer{display:flex;}
+.jusConBetween{justify-content:space-between;}
+
+.rightObject{display:flex;
+    flex-direction:row;
+    justify-content:right;
+    align-items:center;
+    }
+
+footer{background-image: linear-gradient(to top,papayawhip,black);}
+header{justify-content:space-between;margin-bottom:40px;background-image: linear-gradient(to bottom,papayawhip,papayawhip);position:sticky;top:0;z-index:1;}
+
+
+/* DESKTOP */
+
+@media (min-width:1024px){
+    
+ 
+
+.grid{
+    /* 1 columna y 3 filas */
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns:100%;
+    grid-template-rows:auto auto auto;
+}
+header{grid-area: header;}
+main{grid-area: main;}
+footer{grid-area:footer;}
+header, ul, footer{display:flex;}
+
+.cenElement{text-align:center;}
+.pt40{padding-top:40px;}
+.mt80{margin-top:80px;}
+
+/*GRID HEADER*/
+
+
+/*GRID MAIN INDEX*/
+
+.gridMainIndex{
+    display:grid;
+    grid-template-areas:
+    "welcome"
+    "parrafo1"
+    "carcompras";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+.welcome{grid-area:welcome;}
+.parrafo1{grid-area:parrafo1;}
+.carcompras{grid-area:carcompras;}
+
+
