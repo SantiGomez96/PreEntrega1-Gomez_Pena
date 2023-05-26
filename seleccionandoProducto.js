@@ -59,3 +59,16 @@ function incrementarTotal(precio){
     alert('Subtotal hasta el momento $'+total);
 }
 
+alert(nombreUsuario+ ' queremos saber sobre tu experiencia de compra. Por favor danos tu calificacion en el siguiete mensaje')
+let Encuesta = prompt ( '1 - estoy muy  insatisfecho con mi proceso de compra\n2 - Estoy satisfecho con mi proceso de compra\n3 - Estoy muy satisfecho con mi proceso de compra')
+if (Encuesta == '1'){
+    alert("Lo sentimos mucho, trabajaremos mas fuerte para ofrecer un servicio de mayor calidad");
+}else if (Encuesta == '2') {
+    alert("Muchas gracias, estamos trabajando para mejorar tu experiencia");
+}else if (Encuesta == '3'){
+    alert("Muchas gracias, esperamos poder servirte nuevamente");
+}else
+ alert (nombreUsuario+ ' Recuerda que en Ador, siempre encontraras los mejores accesorios para hacer de lo ordinario algo extraordinario');
+
+
+

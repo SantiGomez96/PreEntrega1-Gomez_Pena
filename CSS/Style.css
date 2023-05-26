@@ -105,5 +105,6 @@ header, ul, footer{display:flex;}
 .welcome{grid-area:welcome;}
 .parrafo1{grid-area:parrafo1;}
 .carcompras{grid-area:carcompras;}
+}
 
 
